@@ -506,11 +506,14 @@ var link = document.querySelector(".login-link");
         regLink.addEventListener("click", function (evt) {
             evt.preventDefault();
             regPopup.classList.add("modal-show");
+            overlay.style.display = "block";
+
             });
 
         regClose.addEventListener("click", function (evt) {
             evt.preventDefault();
             regPopup.classList.remove("modal-show");
+            overlay.style.display = "none";
        		}); 
        
 </script>
