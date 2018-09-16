@@ -299,6 +299,14 @@
     	<section class="modal modal-registration">
     		<h2 class="registration-title">Регистрация</h2>
     		<form class="registration-form" action="#" method="post">
+    			<p>
+	                    <label class="registration-field" for="user-login">Логин</label>
+	                    <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="">
+	            </p>
+	             <p>
+                    <label class="registration-field" for="user-email">E-mail</label>
+                    <input class="email-icon-user" id="user-email" type="email" name="e-mail" placeholder="name@example.com">
+                </p>
     			<div class="registration-item-1"> <!--добавить action для формы -->
 	    			<p>
 	                    <label class="registration-field" for="user-surname">Фамилия</label>
@@ -311,20 +319,11 @@
 	                <p>
 	                    <label class="registration-field" for="user-patronymic">Отчество</label>
 	                    <input class="patronymic-icon-user" id="user-patronymic" type="text" name="patronymic" placeholder="">
-	                </p>
-	                <p>
-	                    <label class="registration-field" for="user-login">Логин</label>
-	                    <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="">
-	                </p>
-            	</div>
-                <p class="birth-item">
-                    <label class="registration-field" for="user-birth">Дата рождения</label>
-                    <input class="birth-icon-user" id="user-birth" type="date" value="1985-06-01" name="birth" placeholder="">
-                </p>
-                <p>
-                    <label class="registration-field" for="user-email">E-mail</label>
-                    <input class="email-icon-user" id="user-email" type="email" name="e-mail" placeholder="name@example.com">
-                </p>
+	                <p class="birth-item">
+	                    <label class="registration-field" for="user-birth">Дата рождения</label>
+	                    <input class="birth-icon-user" id="user-birth" type="date" value="1985-06-01" name="birth" placeholder="">
+                	</p>
+	            </div>
                 <div class="registration-item-2">
 	                <p>	                
 	                    <label class="registration-field" for="user-country">Страна</label>
